@@ -1,5 +1,5 @@
 package org.example;
-
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,5 +15,14 @@ public class Main {
 
         int numberOfSheep = counter.countSheeps(arrayOfSheeps);
         System.out.println("The number of present sheep is: " + numberOfSheep);
+
+        // For the DNA strand
+        Scanner scanner = new Scanner(System.in);
+
+
+        String dnaStrand = scanner.nextLine();
+        String complement = DnaStrand.makeComplement(dnaStrand);
+
+        System.out.println("The complement of " + dnaStrand + " is " + complement);
     }
 }
