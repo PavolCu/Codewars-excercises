@@ -18,11 +18,18 @@ public class Main {
 
         // For the DNA strand
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println("Enter a DNA strand: ");
 
         String dnaStrand = scanner.nextLine();
         String complement = DnaStrand.makeComplement(dnaStrand);
 
         System.out.println("The complement of " + dnaStrand + " is " + complement);
+
+        // For the RemoveChars
+        System.out.println("Enter a string: ");
+        String str = scanner.nextLine();
+        String removed = RemoveChars.remove(str);
+
+        System.out.println("The string " + str + " with the first and last characters removed is " + removed);
     }
 }
