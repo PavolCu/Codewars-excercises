@@ -31,5 +31,10 @@ public class Main {
         String removed = RemoveChars.remove(str);
 
         System.out.println("The string " + str + " with the first and last characters removed is " + removed);
+
+        // For the CenturyFromYear
+        Solution.HandleInsertingInputAndOutput(args);
+
+
     }
 }
