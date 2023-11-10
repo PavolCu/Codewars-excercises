@@ -35,6 +35,10 @@ public class Main {
         // For the CenturyFromYear
         Solution.HandleInsertingInputAndOutput(args);
 
+        //For YesOrNo
+        YesOrNo.HandleInsertBooleanValue(args);
+
+
 
     }
 }
