@@ -38,6 +38,9 @@ public class Main {
         //For YesOrNo
         YesOrNo.HandleInsertBooleanValue(args);
 
+        // For SumArray
+        SumArray.HandleInsertingInputAndOutput(args);
+
 
 
     }
