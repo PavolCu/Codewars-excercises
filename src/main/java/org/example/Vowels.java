@@ -20,3 +20,8 @@ public class Vowels {
         System.out.println( vowelsCount);
     }
 }
+/* public static int getCount(String str) {
+        return str.replaceAll("(?i)[^aeiou]", "").length();
+    }
+
+}*/ // This is a solution from codewars
