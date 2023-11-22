@@ -41,6 +41,9 @@ public class Main {
         // For SumArray
         SumArray.HandleInsertingInputAndOutput(args);
 
+        // For Vowels
+        Vowels.HandleInsertingInputAndOutput(args);
+
 
 
     }
