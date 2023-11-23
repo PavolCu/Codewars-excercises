@@ -47,6 +47,9 @@ public class Main {
         // For BoolToStr
         BooleanToString.HandleInsertingInputAndOutput(args);
 
+        // For Kata
+        Kata.HandleInsertingInputAndOutput(args);
+
 
 
     }
