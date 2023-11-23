@@ -44,6 +44,9 @@ public class Main {
         // For Vowels
         Vowels.HandleInsertingInputAndOutput(args);
 
+        // For BoolToStr
+        BooleanToString.HandleInsertingInputAndOutput(args);
+
 
 
     }
