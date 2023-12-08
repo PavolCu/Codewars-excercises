@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Counter counter = new Counter();
+        /*Counter counter = new Counter();
         Boolean[] arrayOfSheeps = {
                 true,  true,  true,  false,
                 true,  true,  true,  true,
@@ -48,8 +48,10 @@ public class Main {
         BooleanToString.HandleInsertingInputAndOutput(args);
 
         // For Kata
-        Kata.HandleInsertingInputAndOutput(args);
+        Kata.HandleInsertingInputAndOutput(args);*/
 
+        //for Kata2
+        Kata2.HandleInsertingInputAndOutput(args);
 
 
     }
