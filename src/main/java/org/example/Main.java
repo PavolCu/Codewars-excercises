@@ -53,6 +53,9 @@ public class Main {
         //for Kata2
         Kata2.HandleInsertingInputAndOutput(args);
 
+        //for Kata3
+        Kata3.HandleInsertingInputAndOutput(args);
+
 
     }
 }
