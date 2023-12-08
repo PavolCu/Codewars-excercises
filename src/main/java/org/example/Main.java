@@ -48,14 +48,15 @@ public class Main {
         BooleanToString.HandleInsertingInputAndOutput(args);
 
         // For Kata
-        Kata.HandleInsertingInputAndOutput(args);*/
+        Kata.HandleInsertingInputAndOutput(args);
 
         //for Kata2
         Kata2.HandleInsertingInputAndOutput(args);
 
         //for Kata3
-        Kata3.HandleInsertingInputAndOutput(args);
+        Kata3.HandleInsertingInputAndOutput(args);*/
 
-
+        //for Kata4
+        Kata4.HandleInsertingInputAndOutput(args);
     }
 }
