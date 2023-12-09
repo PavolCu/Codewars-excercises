@@ -54,9 +54,13 @@ public class Main {
         Kata2.HandleInsertingInputAndOutput(args);
 
         //for Kata3
-        Kata3.HandleInsertingInputAndOutput(args);*/
+        Kata3.HandleInsertingInputAndOutput(args);
 
         //for Kata4
-        Kata4.HandleInsertingInputAndOutput(args);
+        Kata4.HandleInsertingInputAndOutput(args);*/
+
+        //for Grasshopper - Grade Book
+        GrassHopper.readAndCalculateGrade();
+
     }
 }
