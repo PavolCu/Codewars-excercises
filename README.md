@@ -17,3 +17,10 @@ Numerical Score	Letter Grade
 60 <= score < 70	'D'
 0 <= score < 60	'F'
 Tested values are all between 0 and 100. Theres is no need to check for negative values or values greater than 100.
+
+SEQUENCE
+Reversed sequence
+Build a function that returns an array of integers from n to 1 where n>0.
+
+Example : n=5 --> [5,4,3,2,1]
+
