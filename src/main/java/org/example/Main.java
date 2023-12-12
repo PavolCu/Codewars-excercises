@@ -57,10 +57,14 @@ public class Main {
         Kata3.HandleInsertingInputAndOutput(args);
 
         //for Kata4
-        Kata4.HandleInsertingInputAndOutput(args);*/
+        Kata4.HandleInsertingInputAndOutput(args);
 
         //for Grasshopper - Grade Book
-        GrassHopper.readAndCalculateGrade();
+        GrassHopper.readAndCalculateGrade();*/
+
+        //for LineNumbering
+        LineNumbering lineNumbering = new LineNumbering();
+        System.out.println(lineNumbering.number(lineNumbering.handleForInput()));
 
     }
 }
