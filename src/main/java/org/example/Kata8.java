@@ -1,8 +1,15 @@
 package org.example;
+import java.util.ArrayList;
 import java.util.List;
 
-interface Kata8 {
-    static List<Object> filterList(List<Object> list) {
-        return list.stream().filter(Integer.class::isInstance).toList();
+public class Kata8 {
+    public static List<Object> filterList(final List<Object> list) {
+        List<Object> filteredList = new ArrayList<>();
+        for (Object obj : list) {
+            if (obj instanceof Integer) {
+                filteredList.add(obj);
+            }
+        }
+        return filteredList;
     }
 }
