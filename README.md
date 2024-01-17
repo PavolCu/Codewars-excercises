@@ -48,3 +48,12 @@ Examples (a, b) --> output (explanation)
 (-1, 2) --> 2 (-1 + 0 + 1 + 2 = 2)
 Your function should only return a number, not the explanation about how you get that number.
 
+
+Solution5
+Complete the solution so that the function will break up camel casing, using a space between words.
+
+Example
+
+"camelCasing"  =>  "camel Casing"
+"identifier"   =>  "identifier"
+""             =>  ""
