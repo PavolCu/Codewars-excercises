@@ -69,3 +69,10 @@ Examples (Input --> Output)
 "1234"   -->  true
 "12345"  -->  false
 "a234"   -->  false
+
+Begginer - Lost Without a Map Maps
+Given an array of integers, return a new array with each value doubled.
+
+For example:
+
+[1, 2, 3] --> [2, 4, 6]
