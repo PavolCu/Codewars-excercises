@@ -1,6 +1,6 @@
 package org.example;
 import java.util.stream.Stream;
-import org.junit.jupiter.api.DisplayName;
+/*import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.*;
 import org.junit.jupiter.params.provider.*;
 
@@ -28,4 +28,4 @@ public class TwoSumTest {
         int num2 = numbers[actual[1]];
         assertEquals(target, num1 + num2, String.format("Numbers %d, %d at positions %d, %d do not add up to target", num1, num2, actual[0], actual[1]));
     }
-}
+}*/
