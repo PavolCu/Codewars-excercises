@@ -60,11 +60,21 @@ public class Main {
         Kata4.HandleInsertingInputAndOutput(args);
 
         //for Grasshopper - Grade Book
-        GrassHopper.readAndCalculateGrade();*/
+        GrassHopper.readAndCalculateGrade();
 
         //for LineNumbering
         LineNumbering lineNumbering = new LineNumbering();
-        System.out.println(lineNumbering.number(lineNumbering.handleForInput()));
+        System.out.println(lineNumbering.number(lineNumbering.handleForInput()));*/
+
+        //for Kata10
+        Scanner scanner = new Scanner(System.in);
+        long number = scanner.nextLong();
+        int[] result = Kata10.digitize(number);
+        System.out.print("[");
+        for(int digit : result) {
+            System.out.print( digit + ",");
+        }
+        System.out.println("]");
 
     }
 }
